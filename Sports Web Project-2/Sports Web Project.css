@@ -1,0 +1,182 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+.body{
+    background-image: url(./MS-Dhoni-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.header{
+    background-image: url(./286-2869471_ms-dhoni-with-name.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+.menu{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+    line-height: 35px; 
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 20px;
+}   
+.menu ul li a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menu ul li a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+.biography{
+    background-color: chartreuse;
+    height: 100vh;
+    color: blue;
+    font-weight: 900;
+    font-size: 38px;
+    word-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;  
+}
+#biography_h{
+    color: darkorange;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#Biography_heading{
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    color: darkred;
+}
+.awards{
+    background-color: darkgreen;
+    padding: 40px;
+    height: 140vh;
+    font-weight: 900;
+    font-size: 38px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+table,td,th{
+    border: 3px solid black;
+}
+td{
+    color: rgb(0, 174, 255);
+    font-weight:20;
+}
+th{
+    color: rgb(0, 255, 0);
+    font-weight: 900;
+}
+#Heading{
+    background-color: darkgreen;
+    color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+/* SWP Timeline CSS*/
+#main {
+    background-image:radial-gradient(lightblue,royalblue,blue,darkblue) ;
+    height: 100vh;
+    padding: 20px;
+}
+#dhoni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    color: forestgreen;
+    font-weight: 900;
+    font-size: 50px;
+}
+#menu{
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+#menu ul {
+    list-style: none;
+}
+#menu ul li a:hover{
+    color: limegreen;
+    text-decoration: underline;
+}
+.timeline{
+    background-color: limegreen;
+    height: fit-content;
+    padding: 20px;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+.timeline ul li
+{
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+.timeline ul {
+    list-style-type:none;
+    padding: 50px 0;
+}
+.timeline ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background-image:linear-gradient(red,orange,yellow) ;
+}
+.timeline ul li:nth-child(odd) div {
+    left: 45px;
+    transform: translate(200px, 0);
+  }
+  
+.timeline ul li:nth-child(even) div {
+    left: -469px;
+    transform: translate(-150px, 0);
+}
+.timeline ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+.timeline ul li.in-view div{
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
